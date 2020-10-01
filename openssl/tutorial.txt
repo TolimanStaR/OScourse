@@ -1,0 +1,4 @@
+openssl enc -aes-256-cbc -salt -in documents.zip -out documents.enc
+openssl enc -d -aes-256-cbc -in documents.enc -out documents.zip
+
+
